@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage[ansiapaper, margin=1in]{geometry}
+\usepackage{tikz}
+\usepackage{lipsum}
+\usetikzlibrary{calc}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\thepage}
+
+\begin{document}
+\def\drawingtitle{MY TITLE}
+
+\begin{titlepage}
+\input{title}
+\vspace*{\fill}
+	\huge \centering \drawingtitle
+\vspace*{\fill}
+\end{titlepage}
+
+\tableofcontents
+\pagenumbering{roman} 
+
+\newpage
+\pagenumbering{arabic} 
+\section{My Content}
+\subsection{My Sub-Section}
+	\lipsum[1-10]
+\end{document}

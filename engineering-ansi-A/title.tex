@@ -1,0 +1,119 @@
+
+\begin{tikzpicture}[overlay,remember picture]
+	%%%%%%%%%%%%%%%%%
+	% Main Rectangle
+	\draw [line width=2pt]
+	($ (current page.north west) + (0in,-0.25in) $)
+	--
+	($ (current page.north east) + (0in,-0.25in) $);
+	\draw [line width=2pt]
+	($ (current page.north west) + (0.25in,0in) $)
+	--
+	($ (current page.south west) + (0.25in,0in) $);	
+	
+	\draw [line width=2pt]
+	($ (current page.north east) + (-0.25in,0in) $)
+	--
+	($ (current page.south east) + (-0.25in,0in) $);
+	\draw [line width=2pt]
+	($ (current page.south west) + (0in,0.25in) $)
+	--
+	($ (current page.south east) + (0in,0.25in) $);	
+	%%%%%%%%%%%%%%%%%%%				
+	\draw [line width=2pt] 
+	($ (current page.north west) + (2.83in,-0.25in) $)
+	-- 
+	($ (current page.north west) + (2.83in, 0.0in) $);
+	
+	\draw [line width=2pt] 
+	($ (current page.north east) + (-2.83in,-0.25in) $)
+	-- 
+	($ (current page.north east) + (-2.83in, 0.0in) $);
+	
+	\draw [line width=2pt] 
+	($ (current page.south west) + (2.83in,0.25in) $)
+	-- 
+	($ (current page.south west) + (2.83in, 0.0in) $);
+	
+	\draw [line width=2pt] 
+	($ (current page.south east) + (-2.83in,0.25in) $)
+	-- 
+	($ (current page.south east) + (-2.83in, 0.0in) $);			
+	%%%%%%%%%%%%%%%%%%%%			
+	\node[draw=none, align=center] at 
+	($ (current page.north west) + (1.5in,-0.125in) $){\Large \textbf{1}};
+	\node[draw=none, align=center] at 
+	($ (current page.north west) + (4.25in,-0.125in) $){\Large \textbf{2}};
+	
+	\node[draw=none, align=center] at 
+	($ (current page.north east) + (-1.6in,-0.125in) $){\Large \textbf{3}};
+	
+	\node[draw=none, align=center] at 
+	($ (current page.south west) + (1.5in,0.125in) $){\Large \textbf{1}};
+	\node[draw=none, align=center] at 
+	($ (current page.south west) + (4.25in,0.125in) $){\Large \textbf{2}};
+	
+	\node[draw=none, align=center] at 
+	($ (current page.south east) + (-1.6in,0.125in) $){\Large \textbf{3}};
+	%%%%%%%%%%%%%%%%%%%%%%%%
+	\draw [line width=2pt] 
+	($ (current page.north west) + (0in, -0.5in) + (0in, -2.25in)$)
+	-- 
+	($ (current page.north west) + (0.25in, -0.5in) + (0in, -2.25in) $);			
+	\draw [line width=2pt] 
+	($ (current page.south west) + (0in, 0.5in) + (0in, 2.25in)$)
+	-- 
+	($ (current page.south west) + (0.25in, 0.5in) + (0in, 2.25in) $);
+	\draw [line width=2pt] 
+	($ (current page.south west) + (0in, 0.5in) + (0in, 5in)$)
+	-- 
+	($ (current page.south west) + (0.25in, 0.5in) + (0in, 5in) $);
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\draw [line width=2pt] 
+	($ (current page.north east) + (0in, -0.5in) + (0in, -2.25in)$)
+	-- 
+	($ (current page.north east) + (-0.25in, -0.5in) + (0in, -2.25in) $);			
+	\draw [line width=2pt] 
+	($ (current page.south east) + (0in, 0.5in) + (0in, 2.25in)$)
+	-- 
+	($ (current page.south east) + (-0.25in, 0.5in) + (0in, 2.25in) $);
+	\draw [line width=2pt] 
+	($ (current page.south east) + (0in, 0.5in) + (0in, 5in)$)
+	-- 
+	($ (current page.south east) + (-0.25in, 0.5in) + (0in, 5in) $);
+	%%%%%%%%%%%%%%%%%%%%%%%
+	\node[draw=none, align=center] at 
+	($ (current page.north west) + (0.125in, -1.5in) $){\Large \textbf{A}};
+	\node[draw=none, align=center] at 
+	($ (current page.north west) + (0.125in, -4.125in) $){\Large \textbf{B}};
+	\node[draw=none, align=center] at 
+	($ (current page.south west) + (0.125in, 1.5in) $){\Large \textbf{D}};
+	\node[draw=none, align=center] at 
+	($ (current page.south west) + (0.125in, 4.125in) $){\Large \textbf{C}};
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%
+	\node[draw=none, align=center] at 
+	($ (current page.north east) + (-0.125in, -1.5in) $){\Large \textbf{A}};
+	\node[draw=none, align=center] at 
+	($ (current page.north east) + (-0.125in, -4.125in) $){\Large \textbf{B}};
+	\node[draw=none, align=center] at 
+	($ (current page.south east) + (-0.125in, 1.5in) $){\Large \textbf{D}};
+	\node[draw=none, align=center] at 
+	($ (current page.south east) + (-0.125in, 4.125in) $){\Large \textbf{C}};
+	
+	\node[draw=none, align=center] at 
+	($ (current page.south east) + (-1.7in, 0.9in) $){
+		
+		\begin{tabular}{|llllll|}
+			\hline
+			\multicolumn{6}{|l|}{\multirow{3}{*}{LOGO}}                                                              \\
+			\multicolumn{6}{|l|}{}                                                                                   \\
+			\multicolumn{6}{|l|}{}                                                                                   \\ \hline
+			\multicolumn{6}{|l|}{\multirow{2}{*}{Title}}                                                             \\
+			\multicolumn{6}{|l|}{}                                                                                   \\ \hline
+			\multicolumn{6}{|l|}{Drawing Number}                                                                             \\ \hline
+			\multicolumn{1}{|l|}{Scale: None} & \multicolumn{3}{l|}{Date: \today} & \multicolumn{2}{l|}{Sheet 1} \\ \hline
+		\end{tabular}
+	};					
+\end{tikzpicture}
+
